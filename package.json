@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "array-distinct",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "The array to get the distinct items from.",
+	"repository": "https://github.com/Richienb/array-distinct.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,12 +17,18 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"array",
+		"distinct",
+		"filter",
+		"items",
+		"unique"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.10.1",
 		"eslint-config-richienb": "^0.4.2",
-		"xo": "^0.32.1"
+		"xo": "^0.33.0"
 	},
 	"xo": {
 		"extends": "richienb"

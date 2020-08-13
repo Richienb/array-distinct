@@ -1,15 +1,14 @@
 /**
-My awesome module.
-@param input Lorem ipsum.
-@param postfix Lorem ipsum.
+Get all the distinct items in an array.
+@param array The array to get the distinct items from.
 @example
 ```
-const theModule = require("the-module");
+const arrayDistinct = require("array-distinct");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+arrayDistinct([1, 2, 1, 3, 2, 4]);
+//=> [3, 4]
 ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string
+declare function arrayDistinct<ValueType>(array: readonly ValueType[]): ValueType[]
 
-export = theModule
+export = arrayDistinct

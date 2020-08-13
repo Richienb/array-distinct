@@ -1,13 +1,6 @@
 const test = require("ava")
-const theModule = require(".")
+const arrayDistinct = require(".")
 
 test("main", t => {
-	t.throws(() => {
-		theModule(123)
-	}, {
-		instanceOf: TypeError,
-		message: "Expected a string, got number"
-	})
-
-	t.is(theModule("unicorns"), "unicorns & rainbows")
+	t.deepEqual(arrayDistinct([1, 2, 1, 3, 2, 4]), [3, 4])
 })
