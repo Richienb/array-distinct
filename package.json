@@ -1,6 +1,6 @@
 {
 	"name": "array-distinct",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "The array to get the distinct items from.",
 	"repository": "https://github.com/Richienb/array-distinct.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
